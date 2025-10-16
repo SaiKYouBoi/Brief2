@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(./Images/Header/headerbg.jpg);
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  height: 79px;
+  width: 100%;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.search-bar {
+padding: 0 10px 0 10px;
+  border: none;
+  border-radius: 5px;
+  width: 280px;
+  height: 35px;
+  background: #f8f8f8 url('./Images/Header/search-icon.png') no-repeat right 12px center;
+   background-size: 20px 20px;
+  font-size: 16px;
+}
+
+.rightone {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-right: 20px;
+}
+
+.rightone img {
+  height: 35px;
+  margin: 0;
+}
+
+.rightone p {
+font-family: "Inter", sans-serif;
+font-size: 14px;
+  color: white;
+  padding: 0%;
+}
+
+#vector {
+  height: 7px;
+    
+}
+
+.search-container{
+    position: relative;
+    align-content: center;
+    
+}
+
+.search-icon{
+   
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #bdbdbd;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 51px;
+}
+
+.social-icons{
+    margin-left: 85px;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.navlinks{
+    display: flex;
+    margin-right: 85px;
+    width: 100vw  ;
+    justify-content:end;
+    gap: 77px;
+    align-items: center;
+    
+}
+
+.navlinks a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+}
+
+.navlinks button{
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  height: 39px;
+  width: 134px;
+  border-radius: 8px;
+  border: none;
+}
+
+.navlinks button:hover{
+box-shadow: 0 6px 10px rgba(0,0,0,0.30);
+border: 2px white solid;
+}
+
+
+.navlinks a:hover {
+    text-shadow: 0 6px 10px rgba(0,0,0,0.30);
+    font-size: 19px;
+    font-weight: 500  ;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;;
+  font-size: 56px;
+  font-weight: 800;
+  color: white;
+  
+}
+
+.herosection{
+  background-image: url(./Images/Hero/EarthImage.png);
+ height: 481px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.herosection p{
+  display: flex;
+ font-family: "Poltawski Nowy", serif;
+ font-size: 30px;
+ font-weight: 400;
+ color: white;
+ max-width: 770px;
+ text-align: center;
+}
+
+
+.herosection button{
+width: 140px;
+height: 43px;
+border-radius: 36px;
+background-color: #C0C0C0;
+font-family: "Plus Jakarta Sans", sans-serif;
+border: none;
+font-weight: 600;
+}
+
+
+
+
+
