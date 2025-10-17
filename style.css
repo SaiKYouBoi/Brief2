@@ -775,3 +775,180 @@ height: 376.5px;
   grid-area: 4 / 2 / 5 / 3;
 }
 
+
+/* planetes page */
+
+.planets-section{
+background: url(./Images/planetspage/universehero.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 481px;
+width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+}
+
+
+.planets-section p{
+font-family: "Poltawski Nowy", serif;
+ font-size: 30px;
+ font-weight: 400;
+ color: white;
+ max-width: 900px;
+ margin-top: 90px;
+ margin-bottom: 0;
+
+}
+
+.planets-section h1{
+  width: 611px;
+   text-align: center;
+   font-size: 70px;
+}
+
+.planet{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:0px ;
+grid-column-gap: 44px;
+grid-row-gap: 0px;
+margin: auto;
+width: 1060px;
+}
+.planet-def{
+  width: 266px;
+}
+.planet-def h1{
+font-family: "Inter", sans-serif;;
+font-size: 40px ;
+font-weight: 800;
+color: black;
+margin-top: 0px;
+}
+
+.planet-def p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.planetmoon{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:0px ;
+grid-column-gap: 44px;
+grid-row-gap: 0px;
+margin: auto;
+width: 1060px;
+margin-top: 600px;
+}
+
+.planetmoon-def{
+  width: 266px;
+}
+.planetmoon-def h1{
+font-family: "Inter", sans-serif;;
+font-size: 40px ;
+font-weight: 800;
+color: black;
+margin-top: 0px;
+}
+
+.planetmoon-def p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.thesun{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:0px ;
+grid-column-gap: 44px;
+grid-row-gap: 0px;
+margin: auto;
+width: 1060px;
+margin-top: 600px;
+}
+.thesun-def{
+  width: 266px;
+}
+.thesun-def h1{
+font-family: "Inter", sans-serif;;
+font-size: 40px ;
+font-weight: 800;
+color: black;
+margin-top: 0px;
+}
+
+.thesun-def p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.planetneptune{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:0px ;
+grid-column-gap: 44px;
+grid-row-gap: 0px;
+margin: auto;
+width: 1060px;
+margin-top: 600px;
+}
+.planetneptune-def{
+  width: 266px;
+}
+.planetneptune-def h1{
+font-family: "Inter", sans-serif;;
+font-size: 40px ;
+font-weight: 800;
+color: black;
+margin-top: 0px;
+}
+
+.planetneptune-def p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.jupiter{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:0px ;
+grid-column-gap: 44px;
+grid-row-gap: 0px;
+margin: auto;
+width: 1060px;
+margin-top: 600px;
+}
+.jupiter-def{
+  width: 266px;
+}
+.jupiter-def h1{
+font-family: "Inter", sans-serif;;
+font-size: 40px ;
+font-weight: 800;
+color: black;
+margin-top: 0px;
+}
+
+.jupiter-def p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+
