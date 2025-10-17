@@ -439,7 +439,7 @@ top: 26px;
   height: 300px;
   margin: auto;
   margin-bottom: 56px;
-  background-image: url('/Images/Hero/moon.png'); 
+  background-image: url('./Images/Hero/moon.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
