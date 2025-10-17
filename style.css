@@ -5,10 +5,10 @@ body {
 
 header {
   background-image: url(./Images/Header/headerbg.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   height: 79px;
   width: 100%;
@@ -139,6 +139,8 @@ h1{
 
 .herosection{
   background-image: url(./Images/Hero/EarthImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
  height: 481px;
  display: flex;
  flex-direction: column;
@@ -167,7 +169,520 @@ border: none;
 font-weight: 600;
 }
 
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px; 
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+
+.card{
+   background: url("./Images/Hero/card.png");
+   background-size: cover;
+  color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 340px;
+  height: 100;
+}
+
+.card h3{
+  font-size: 20px;
+  font-weight: 500;
+  height: 30px;
+  color: white;
+  font-family:"Poppins", sans-serif;
+}
+
+.card p{
+  font-size: 14px;
+  font-weight: 250;
+  color: white;
+  font-family:"Plus Jakarta Sans", sans-serif;
+  width: 270;
+}
+
+.card button{
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+  font-family:"Plus Jakarta Sans", sans-serif;
+  background-color: white;
+  width: 81px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 260px;
+  
+}
+
+.timecontainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+  justify-content: center;
+  margin-left: 169px;
+  margin-top:40px ;
+  
+}
+
+.timecontainer p{
+  font-family: "Castoro", serif;
+  font-size: 18px;
+  font-weight: 450;
+
+}
+.totaltime{
+  position: relative;
+  width: 414px;
+  height: 130px;
+  border-radius: 24px;
+  background-color: #020305;
+}
+
+.totaltime img{
+position: absolute;
+left: 58px;
+top: 26px;
+}
 
 
+#total{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 36px;
+  margin: 0;
+}
+
+#time{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+  position: absolute;
+  left: 58px;
+  top: 79px;
+  margin: 0;
+  letter-spacing: 10px;
+}
 
 
+.astrodiff{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1210px;
+  height: 421px;
+  margin-top: 30px;
+  margin-left: 130px;
+  border-radius: 37px;
+  background-color: #020305;
+  align-items: center;
+ 
+}
+
+.astrodiff img{
+  border-radius: 37px 0px 0px 37px;
+}
+
+
+.astrocard{
+  background: color-mix(in srgb, #999999 50%, #FFFFFF 50%);
+  padding: 2rem 1.5rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  max-width: 430px;
+  margin-left: 60px;
+  padding-left: 50px;
+  
+}
+
+.astrocard h3{
+  font-size: 30px;
+  font-weight: 800;
+  height: 30px;
+  color: white;
+  font-family:"Poppins", sans-serif;
+}
+
+.astrocard p{
+  font-size: 16px;
+  font-weight: 250;
+  color: white;
+  font-family:"Plus Jakarta Sans", sans-serif;
+  width: 390px;
+}
+
+.astrocard button{
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
+  font-family:"Plus Jakarta Sans", sans-serif;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 280px;
+}
+
+.lunar{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 1153px;
+  height: 609px;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+
+.lunar-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px
+}
+
+
+.lunar h1{
+  font-family: "Castoro", serif;
+  color: #020305;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.lunar h2{
+  font-family: "Castoro", serif;
+  text-decoration: underline;
+  color: #020305;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.lunar p{
+  font-family: "Castoro", serif;
+  color: #020305;
+  font-size: 16px;
+}
+
+.lunar button{
+  font-family:"Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px black solid;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.lunar-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lunar-image p{
+  font-family: "Castoro", serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.astonaut{
+   position: relative;
+}
+
+.astonaut img{
+  margin-left: 130px;
+  margin: 108px;
+  width: 1210px;
+}
+
+.astonaut p{
+  position: absolute;
+  top: 82px;
+  left: 140px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  width: 610px;
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.vision{
+  padding: 0px 80px 0px 120px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap:120px;
+  width: 1060px;
+  height: 300px;
+  margin-left: 80px;
+  margin-bottom: 56px;
+  background-image: url('/Images/Hero/moon.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.vision1{
+  padding: 0px 40px 0px 40px;
+  border: 1px rgb(202, 201, 201) solid;
+  border-radius: 60px;
+width: 383px;
+height: 203px;
+}
+
+.vision1 p{
+font-family: "Plus Jakarta Sans", sans-serif;;
+font-size: 14px ;
+color: white;
+font-weight: 800;
+}
+
+.vision1 h3{
+font-family: "Plus Jakarta Sans", sans-serif;;
+font-size: 25px ;
+color: white;
+color: white;
+}
+
+.mission1{
+  padding: 0px 40px 0px 40px;
+  border: 1px rgb(202, 201, 201) solid;
+  border-radius: 60px;
+width: 383px;
+height: 203px;
+}
+
+.mission1 p{
+font-family: "Plus Jakarta Sans", sans-serif;;
+font-size: 14px ;
+color: white;
+font-weight: 800;
+}
+
+.mission1 h3{
+font-family: "Plus Jakarta Sans", sans-serif;;
+font-size: 25px ;
+color: white;
+color: white;
+}
+
+.community-title{
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-size: 36px ;
+  color: black;
+  font-weight: 100;
+}
+
+.community-title p{
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-size: 36px ;
+  color: black;
+  font-weight: 1000;
+  margin: 0;
+}
+
+
+.community-title img{
+  width: 52px;
+  height: 52px;
+}
+
+
+.teamnames{
+  width:1300px ;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 60px;
+  gap:5px;
+  place-items: center
+}
+
+.teamnames p{
+  font-family: "Castoro", serif;
+  font-size: 20px ;
+  color: black;
+  font-weight: 400;
+}
+
+.members{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moonbanner{
+  background-image: url(./Images/banners/moonbanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-items: center;
+  height: 280px;
+  margin: 80px 0px 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.moonbanner h1{
+  font-family: "Poly", serif;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+.moonbanner p{
+  font-family: "Poly", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.mbrightpart{
+  margin-left: 80px;
+}
+
+.bgmiddlepart{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+#title{
+font-size: 13px;
+  font-family:"Poppins", sans-serif;
+  margin: 0;
+}
+#score{
+font-size: 36px;
+  font-family:"Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.footerbanner{
+  background-image: url(./Images/Footer/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-items: center;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footercontainer{
+background-color: #020305;
+  width: 1257px;
+  height: 347px;
+}
+
+.footercontent{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.fcrightpart{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 100px;
+}
+
+.fcrightpart p{
+  font-family:"Inter", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+
+.fcmiddlepart p{
+  font-family: "Abel", sans-serif;
+  font-size: 15px;
+}
+
+.fcleftpart p{
+  font-family: "Abel", sans-serif;
+  font-size: 15px;
+}
+
+.subsucription{
+display: flex;
+flex-direction: column;
+justify-content: CENTER;
+margin-left: 100px;
+}
+
+.subsucription p{
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.subsucription button{
+  width: 248px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 15PX;
+  font-family: "Castoro", serif;;
+  font-size: 14PX;
+}
+
+.line{
+  border-bottom: rgba(211, 211, 211, 0.3) 0.2px solid;
+  width: 1100px;
+  margin-left: 100px;
+  margin-top: 30px;
+  
+}
+.bottomcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.terms p{
+  
+   font-family: "Castoro", serif;;
+  font-size: 14PX;
+  color: white;
+}
+
+.terms{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center ;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center ;
+}
