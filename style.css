@@ -1125,7 +1125,7 @@ font-family:"Castoro", serif;
 }
 
 .bottom-quote p{
-  font-family:"Libre Caslon Text", serif;; 
+  font-family:"Libre Caslon Text", serif;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
@@ -1138,9 +1138,9 @@ font-family:"Castoro", serif;
 /* About us page */
 
 .moonherosection{
-  background-image: url(./Images/aboutus/moonbanner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+background-image: url(./Images/aboutus/moonbanner.png);
+background-repeat: no-repeat;
+background-size: cover;
  height: 481px;
  display: flex;
  flex-direction: column;
@@ -1168,4 +1168,257 @@ font-family: "Plus Jakarta Sans", sans-serif;
 border: none;
 font-weight: 600;
 }
+
+.sitemission{
+  background-image: url(./Images/aboutus/blackbg.png);
+  background-repeat: no-repeat;
+  place-items: center;
+  margin: auto;
+  width: 1152px;
+  height: 432px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.sitemission p{
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  width: 336px;
+}
+
+.sitemission div{
+  height: 393px;
+  margin: auto;
+}
+
+.techcontent{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 187px;
+  margin: auto;
+  margin-bottom: 136px;
+  width: 1152px;
+
+}
+
+.techdetails{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 315px;
+  height:315px;
+}
+
+.techdetails h1{
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #020305;
+  margin: 0;
+}
+
+.techdetails p{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.techdetails button{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #020305;
+  border-radius: 20px;
+  width: 266px;
+  height: 66px;
+}
+
+.ourstory{
+  display: flex;
+  justify-content: center;
+  background-image: url(./Images/aboutus/ourstory.png);
+  background-repeat: none;
+  width: 1152px;
+  height: 450px;
+  margin:auto;
+  margin-bottom: 136px;
+}
+
+.ourstory-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 835px;
+  height: 288px;
+  margin: auto;
+  border-radius: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  border: lightgray 0.5px solid;
+}
+
+.ourstory-content h1{
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-size: 25px;
+  font-weight: 1000;
+   color: white;
+   width: 119px;
+}
+
+.ourstory-content p{
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-size: 14px;
+  color: white;
+  font-weight: 800;
+  width: 729px;
+  text-align: center;
+   line-height: 2;
+}
+
+.ourvision{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: black;
+  border-radius: 37px;
+  width: 1152px;
+  height: 421px;
+  margin: auto;
+}
+
+.ourvision img{
+  border-radius: 33px;
+}
+
+.insidecontainer{
+background-color: #999999;
+width: 483px;
+height: 377px;
+margin: auto;
+border-radius: 33px;
+}
+
+.ourvision-content{
+margin: auto;
+width: 389px;
+height: 330px;
+
+}
+
+.ourvision-content h1{ 
+  font-family: "Inter", sans-serif;;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  width: 159px;
+  margin-top: 56px;
+  margin-bottom: 43px;
+}
+
+
+.ourvision-content p{
+
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  width: 398px;
+  margin-bottom: 35px;
+}
+
+.ourvision-content button{
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+  font-family:"Plus Jakarta Sans", sans-serif;
+  background-color: white;
+  border: none;
+  width: 127px;
+  height: 57px;
+  border-radius: 20px;
+  margin-left: 277px;
+}
+
+.team{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  width: 1297px;
+  height: 782px;
+  margin: auto;
+}
+
+
+
+.team h1{
+  font-family: "Poltawski Nowy", serif;
+  font-size: 34px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+
+.team p{
+  font-family: "Castoro", serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+
+.values p{
+font-family: "Libre Caslon Text", serif;
+font-size: 40px;
+font-weight: 500;
+text-align: center;
+margin: 0;
+margin-bottom:39px;
+margin-top: 112px;
+}
+
+.ourvalues{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-row-gap: 80px;
+  width: 1050px;
+  height:215px;
+  margin: auto;
+  margin-bottom: 67px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourvaluescontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 137px;
+  height: 113px;
+}
+
+.ourvaluescontainer h1{
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+}
+
+.ourvaluescontainer p{
+  font-family: "Poly", serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+  width: 137px;
+  margin: 0;
+  text-align: center;
+}
+
+
 
