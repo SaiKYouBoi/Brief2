@@ -1607,6 +1607,7 @@ height: 667px;
   .message{
     margin-top: 60px;
   }
+
  #message{
   
   font-family: "Poppins", sans-serif;
@@ -1637,4 +1638,53 @@ height: 667px;
     border-radius: 5px;
     background-color: #1B1B1B;
   }
+
+.elp-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 67px;
+  width: 1152px;
+  height: 282px;
+  margin: auto;
+  margin-top: 114px;
+  margin-bottom: 16px;
+}
+
+.email-container{
+width: 339px;
+height: 221px;
+
+}
+
+.livechat-container{
+width: 339px;
+height: 282px;
+}
+
+.phone-container{
+width: 339px;
+height: 221px;
+}
+
+.elp-container h1{
+font-family: "Poppins", sans-serif;;
+font-size: 36px;
+font-weight: 400;
+color: black;
+margin: 0;
+}
+
+.elp-container p{
+font-family: "Poppins", sans-serif;;
+font-size: 16px;
+font-weight: 200;
+color: black;
+}
+
+.elp-container a{
+font-family: "Poppins", sans-serif;;
+font-size: 16px;
+font-weight: 300;
+color: black;
+}
 
